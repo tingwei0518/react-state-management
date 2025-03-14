@@ -29,13 +29,12 @@ const Counter = () => {
   const { counter, increase } = useContext(CounterContext);
 
   return (
-    <div className="card">
+    <div>
       <button onClick={increase}>
         count is {counter}
       </button>
     </div>
   )
-
 }
 
 const CounterStateManagement = () => {
